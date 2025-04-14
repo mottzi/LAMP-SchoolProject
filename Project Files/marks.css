@@ -1,0 +1,214 @@
+/*#container_content_main{
+	height: auto;
+	min-height: 0px;
+}*/
+
+#tableTitle{
+	text-align: center;
+	margin: 0px auto;
+	width: auto;
+	color: #666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#tableTitle #boldTitle{
+	font-size: 26px;
+	text-decoration: underline;
+	color: black;
+}
+
+#notenTabelle .test_date{
+	color: #a3a3a3;
+}
+
+#notenTabelle .noten_avg{
+	color: #bd5a35;
+	font-weight: bold;
+}
+
+#notenTabelle a{
+	font-weight: bold;
+}
+
+#notenTabelle a:link,
+.button_table:hover {
+	color: #666;
+	text-decoration:none;
+}
+#notenTabelle a:visited,
+.button_table:hover {
+	color: #666;
+	text-decoration:none;
+}
+#notenTabelle a:active,
+#notenTabelle a:hover, 
+.button_table:hover {
+	color: #bd5a35;
+	text-decoration:underline;
+}
+
+#newTestContainer{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666;
+	font-size: 12px;
+	text-shadow: 1px 1px 0px #fff;
+	background: linear-gradient(to bottom, #fbfbfb 0%, #fbfbfb 100%);
+	padding: 20px;
+	border-radius:3px;
+	box-shadow: 0 1px 2px #d1d1d1;
+}
+
+#newTestContainer .newTestInput{
+	height: 20px;
+	width: 110px;
+	margin-right: 5px;
+}
+
+#notenTabelle {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size:12px;
+	text-shadow: 1px 1px 0px #fff;
+	background:#eaebec;
+	margin: 20px auto;
+	margin-bottom: 10px;
+	border:#ccc 1px solid;
+	width: 100%;
+	border-radius:3px;
+	box-shadow: 0 1px 2px #d1d1d1;
+}
+#notenTabelle th {
+	padding:21px 25px 22px 25px;
+	border-top:1px solid #fafafa;
+	border-bottom:1px solid #e0e0e0;
+
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
+	background: -moz-linear-gradient(top,  #ededed,  #ebebeb);
+}
+#notenTabelle th:first-child {
+	text-align: left;
+	padding-left:20px;
+}
+#notenTabelle tr:first-child th:first-child {
+	-moz-border-radius-topleft:3px;
+	-webkit-border-top-left-radius:3px;
+	border-top-left-radius:3px;
+}
+#notenTabelle tr:first-child th:last-child {
+	-moz-border-radius-topright:3px;
+	-webkit-border-top-right-radius:3px;
+	border-top-right-radius:3px;
+}
+#notenTabelle tr {
+	text-align: center;
+	padding-left:20px;
+}
+#notenTabelle td:first-child {
+	text-align: left;
+	padding-left:20px;
+	border-left: 0;
+}
+#notenTabelle td {
+	padding:18px;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+	background: linear-gradient(to bottom, #fbfbfb 0%, #fbfbfb 100%);
+}
+/*
+#notenTabelle tr.even td {
+	background: #f6f6f6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
+	background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6);
+}
+*/
+#notenTabelle tr:last-child td {
+	border-bottom:0;
+}
+#notenTabelle tr:last-child td:first-child {
+	-moz-border-radius-bottomleft:3px;
+	-webkit-border-bottom-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+#notenTabelle tr:last-child td:last-child {
+	-moz-border-radius-bottomright:3px;
+	-webkit-border-bottom-right-radius:3px;
+	border-bottom-right-radius:3px;
+}
+#notenTabelle tr:hover td {
+	background: #f2f2f2;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+	background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);	
+}
+
+.edit{
+	width: 100%;
+	
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size:12px;
+	text-shadow: 1px 1px 0px #fff;
+}
+
+.editnote{
+	text-align: center;
+}
+
+.newTestInput{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size:12px;
+	text-shadow: 1px 1px 0px #fff;
+
+	height: 20px;
+}
+
+.dateInput{
+	width: 130px;
+}
+
+a:-webkit-any-link {
+	text-decoration: none;
+}
+
+.button_table{
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-shadow: 1px 1px 0px #fff;
+	color:#666;
+	width: auto;
+	padding: 10px;
+	border-radius: 3px;
+	box-shadow: 0 1px 2px grey;
+	display: inline-block;
+	background-color: rgba(200, 200, 200, .4);
+	border: 0px;
+	text-decoration: none;
+}
+
+.button_newtest{
+	padding: 10px;
+	margin-top: 10px;
+	margin-left: 12px;
+}
+
+.button_newtest_save{
+	margin-left: 14px;
+}
+
+.button_table:hover{
+	box-shadow: 0 1px 2px rgba(50, 50, 50, 1);
+}
+
+.button_table:active{
+	box-shadow: inset 0 1px 2px grey;
+}
+
+#container_table{
+	display: table;
+	margin: 0px auto;
+}
